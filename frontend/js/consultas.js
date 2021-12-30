@@ -11,7 +11,7 @@ let consultas = [];
 let mascotas = [];
 let veterinarias = [];
 
-const url = "http://localhost:3300";
+const url = "https://veterinaria-backend-kohl.vercel.app";
 
 async function listarConsultas() {
   const entidad = "consultas";

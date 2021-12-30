@@ -5,7 +5,7 @@ const indice= document.getElementById('indice')
 const form= document.getElementById('form');
 const btnGuardar=document.getElementById('btn-guardar');
 const listaDuenos=document.getElementById('lista-duenos');
-const url="http://localhost:3300/duenos";
+const url="https://veterinaria-backend-kohl.vercel.app/duenos";
 let duenos=[];
 
 async function listarDuenos(){
